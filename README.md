@@ -229,9 +229,7 @@ The attention module (`models/attention.py`) merges two complementary spatial at
 `CrissCrossBranch` uses asymmetric kernel combinations across Q, K, V (criss-cross layout), capturing cross-directional dependencies that symmetric kernels miss.
 
 The two branch outputs are fused via a learnable scalar per branch, then optionally gated by a channel-SE block, and projected back to the original channel count through a 1×1 convolution.
-
-```<img width="232" height="150" alt="multiscale_hybrid_attention_architecture" src="https://github.com/user-attachments/assets/6e8f38ff-62ad-4671-be9b-dc8c3520a35f" />
-```
+<img width="232" height="150" alt="multiscale_hybrid_attention_architecture" src="https://github.com/user-attachments/assets/4ff5a4bb-3b41-47ff-a995-44ba5eb4a939" />
 
 ---
 
