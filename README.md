@@ -348,3 +348,5 @@ Install with:
 ```bash
 pip install torch torchvision numpy scikit-learn matplotlib seaborn Pillow tqdm
 ```
+---
+Made with ❤️ from NiceGuy
